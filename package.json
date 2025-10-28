@@ -7,12 +7,10 @@
   "scripts": {
     "start": "node api/index.js"
   },
-  "keywords": ["x402", "express", "vercel", "coinbase"],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@coinbase/x402": "^0.7.0",
     "x402-express": "^0.7.0",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
   }
 }
